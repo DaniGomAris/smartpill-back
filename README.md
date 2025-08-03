@@ -7,21 +7,26 @@
 ## 📁 Project Structure
 
 ```
-smartpill-app/
-├── backend/         # Flask REST API with Firebase integration
-│   ├── app.py
-│   ├── firebase_config.py
-│   ├── routes/
-│   ├── utils/
-│   ├── tests/
-│   ├── .env
-│   ├── firebase_key.json
-│   └── requirements.txt
-├── front/           # Mobile app developed with Flutter
-│   ├── lib/
-│   ├── assets/
-│   └── pubspec.yaml
-└── README.md
+smartpill-app/        # Flask REST API with Firebase integration
+├── models/
+|   ├── __init__.py
+|   └── user.py
+├── routes/
+|   ├── __init__.py
+|   └── user_route.py
+├── tests/
+|   ├── __init__.py
+|   ├── test_firebase.py
+|   └── test_user_validator.py
+├── utils/
+|   ├── __init__.py
+|   └── user_validator.py
+├── gitignore
+├── README.md
+├── app.py
+├── firebase_config.json
+├── render.yaml
+└── requirements.txt
 ```
 
 ---

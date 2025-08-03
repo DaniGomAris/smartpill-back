@@ -9,7 +9,7 @@ validator = UserValidator(db)
 
 # Obtain all users
 @user_bp.route("/", methods = ["GET"])
-@jwt_required()
+#@jwt_required()
 def get_users():
     collection = db.collection("users")
     documents = collection.stream()
