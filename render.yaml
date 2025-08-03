@@ -1,0 +1,11 @@
+services:
+  - type: web
+    name: smartpill-back
+    env: python
+    buildCommand: ""
+    startCommand: python app.py
+    envVars:
+      - key: FIREBASE_KEY_PATH
+        value: firebase_key.json
+      - key: JWT_SECRET_KEY
+        value: super-secret-key

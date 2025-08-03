@@ -1,0 +1,56 @@
+# ===============================
+# Python / Flask
+# ===============================
+
+# Entorno virtual
+venv/
+
+# Variables de entorno
+.env
+
+# Archivos compilados
+__pycache__/
+*.py[cod]
+*.so
+
+# Firebase key (NO subir claves privadas)
+firebase_key.json
+
+# Archivos de cache y pruebas
+*.log
+.coverage
+htmlcov/
+.tox/
+.nox/
+.pytest_cache/
+.cache/
+
+# ===============================
+# IDEs y editores
+# ===============================
+
+.vscode/
+.idea/
+
+# ===============================
+# Sistema operativo
+# ===============================
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Linux
+*~
+
+# Archivos temporales
+*.tmp
+*.swp
+*.bak
+*.orig
